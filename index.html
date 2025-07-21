@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar">
+<link rel="icon" href="images/Icon.png" type="image/png">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta property="og:title" content="SILICON WAHA - دليل الزوار">
+    <meta property="og:description" content="دليلك داخل منطقة واحات السيليكون التكنولوجية">
+    <meta property="og:image" content="https://habibahamdyyy.github.io/SW_SadatCity/images/Icon.png">
+    <meta property="og:url" content="https://habibahamdyyy.github.io/SW_SadatCity/">
+    <meta property="og:type" content="website">
+    <title>SILICON WAHA - دليل الزوار</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="page-enter">
+
+    <h1 class="logo-text">SILICON WAHA</h1>
+
+    <h3 class="intro">
+        مرحبًا بك في المنطقة التكنولوجية بمدينة السادات، إحدى مناطق شركة واحات السيليكون للمناطق التكنولوجية.
+        يهدف هذا الدليل الإرشادي إلى تسهيل تجربتك داخل المنطقة وتوفير كل ما تحتاجه من معلومات لضمان أداء مهامك بسلاسة
+        وراحة.
+        نرجو الاطلاع على التعليمات والخدمات المتاحة لتجربة عملية آمنة وفعالة.<br>
+        نتمنى لك وقتًا مثمرًا ونجاحًا دائمًا.
+    </h3>
+
+    <div class="tabs">
+        <div class="tab" onclick="openPDF('SiliconWaha.pdf')">
+            <img src="images/LOGO.jpg" alt="من نحن؟">
+            <div class="tab-label">من نحن؟</div>
+        </div>
+        <div class="tab" onclick="window.open('https://maps.app.goo.gl/5KD37c2iggF54gQT6', '_blank')">
+            <img src="https://openmoji.org/data/color/svg/E0A9.svg" alt="الموقع">
+            <div class="tab-label">الموقع</div>
+        </div>
+        <div class="tab" onclick="openPDF('لراحتك.pdf')">
+            <img src="https://thumbs.dreamstime.com/b/instruction-manual-guide-document-cogwheel-isolated-design-element-male-character-analyzing-file-business-analysis-data-274463302.jpg?w=768"
+                alt="لراحتك">
+            <div class="tab-label">لراحتك التزم بالآتي</div>
+        </div>
+        <div class="tab" onclick="openPDF('لسلامتك.pdf')">
+            <img src="https://openmoji.org/data/color/svg/1F6A8.svg" alt="لسلامتك">
+            <div class="tab-label">لسلامتك اتبع الآتي</div>
+        </div>
+    </div>
+
+    <div id="content" class="content" style="display: none;"></div>
+
+
+    <div class="download-box">
+        <h3>
+            قم بتحميل تطبيق Silicon Waha
+        </h3>
+        <a href="https://play.google.com/store/apps/details?id=com.codemorning.siliconwaha" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="تحميل من Google Play" style="height: 50px; margin: 10px;">
+        </a>
+        <a href="https://apps.apple.com/eg/app/silicon-waha/id6744442120" target="_blank">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="تحميل من App Store" style="height: 50px; margin: 10px;">
+        </a>
+    </div>
+
+
+    <script>
+        function openPDF(fileName) {
+            window.open(fileName, "_blank");
+        }
+    </script>
+
+</body>
+</html>
